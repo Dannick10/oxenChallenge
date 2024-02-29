@@ -6,10 +6,12 @@ Projeto do processo seletivo, é uma aplicação React vite com componente grid 
 &nbsp;
 
 # 1. Como executar ?
-  * Instale  as depedência
+  * Instale  as depedência <br>
+  &nbsp;
    .  npm install ou npm i
 
- * execute a aplicação local
+ * execute a aplicação local <br>
+ &nbsp;
    .  npm run dev
    
 &nbsp;
