@@ -39,7 +39,7 @@ const UserInfo = (UserInfo) => {
                 <p>{UserInfo.data.following}</p>
                 </div>
 
-                <a href="">
+                <a href={UserInfo.data.html_url} target='_blank'>
                     <div className={styles.stats_itens}>
                     <i className="fa-brands fa-github"></i>
                         <p>perfil</p>
