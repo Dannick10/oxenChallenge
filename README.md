@@ -20,9 +20,9 @@ Projeto do processo seletivo, é uma aplicação React vite com componente grid 
 
 # 2. Funcionalidades
 
-UserInfo: Exibe informações básicas do usuário, como nome, foto de perfil, bio, seguidores, e quantidade de repositórios  e compoania utilizando a API do GitHub.
+UserInfo: Exibe informações básicas do usuário, como nome, foto de perfil, bio, seguidores, e quantidade de repositórios. Utilizando a API do GitHub.
 
-GridRepository: Mostra os repositórios do usuário utilizando o Grid do Kendo UI, com filtragem e exportação ao excel.
+GridRepository: Mostra os repositórios em tabela do usuário da api, utilizando o Grid do Kendo UI, com filtragem e exportação ao excel.
 
 &nbsp;
 &nbsp;
@@ -37,7 +37,8 @@ GridRepository: Mostra os repositórios do usuário utilizando o Grid do Kendo U
 &nbsp;
 
 # 5. Componentes
-O componente UserInfo é responsável por exibir informações básicas sobre um usuário do GitHub. Ele inclui a foto de perfil, o nome, a bio, a empresa, a localização e estatísticas como o número de repositórios, seguidores e pessoas seguidas. <br>
+
+O componente UserInfo é responsável por exibir informações básicas sobre um usuário do GitHub. Ele inclui a foto de perfil, o nome, a bio, a empresa, a localização e estatísticas como o número de repositórios, seguidores, pessoas seguidas e âncora html para o acesso do perfil do usuario. <br>
 
 O componente GridRepository exibe o Grid(kendo ui) de repositórios do GitHub. Ele possui recursos de filtragem e exportação para Excel.
 
