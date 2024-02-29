@@ -1,0 +1,56 @@
+.user_banner{
+    width: 67vw;
+    font-family: var(--fontUser);
+    font-size: .9em;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: .8em .8em 0 0;
+    max-width: 1000px;
+}
+
+.banner_info,
+.banner_stats{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: .5em 0;
+}
+
+.banner_info{
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+.banner_stats{
+    gap: 3em;
+   
+}
+
+.profile_img{
+    border-radius: 50%;
+    width: 8em;
+    border: 2px solid #f8f8f8;
+    outline: 2px solid var(--colorPrimary);
+}
+
+.stats_itens{
+    position: relative;
+    width: 8em;
+    height: 2.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    border-radius: .2em;
+    background-color: var(--colorPrimary); 
+    color: #fff;
+    cursor: pointer;
+}
+
+.stats_itens:hover{
+    filter: brightness(120%);
+}
+
+.stats_itens:hover i{
+   display: none;
+}

@@ -1,0 +1,38 @@
+.k-grid {
+  width: 98vw;
+  height: 40vh;
+  overflow: auto;
+  box-sizing: border-box;
+  outline: 0;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-weight: 400;
+  text-size-adjust: 100%;
+  border: 1px solid #424242;
+  text-align: center;
+}
+
+.k-grid .k-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-sizing: content-box;
+
+}
+
+.k-grid td{
+  padding: 0.7em 0;
+}
+
+.k-table-td {
+  width: 100vw;
+  padding: 0.8em 0;
+}
+
+.k-header{
+  width: 100vw;
+  padding: 1em 0;
+  font-size: 1.2em;
+}

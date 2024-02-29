@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --colorPrimary: #007fff;
+    --colorSecond: #036;
+
+    --border: #75baff;
+
+    --fontUser: "Work Sans", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: white;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.k-button{
+  background-color: var(--colorPrimary);
+  border: 1px solid var(--border);
+  font-family: var(--fontUser);
+}
+
+.k-button-solid-primary:hover{
+  background-color: var(--colorPrimary);
+  border: 1px solid var(--border);
+  filter: brightness(120%);
+}
