@@ -10,39 +10,34 @@ import UserInfo from './components/UserInfo'
 
 function App() {
 
-  const [dataUser,setDataUser] = useState('Dannick10')
-
-  const url_Repository = `${GITURL + dataUser}/repos`
-  const url_User = `${GITURL + dataUser}`
+  const [dataUser] = useState('Dannick10')
 
   const [userRepor,setUserRepor] = useState([])
   const [useInfo,setUseInfo] = useState([])
 
-    useEffect(() => {
 
+    useEffect(() => {
     async function fetchRepository() {
-      const responseRepo = await fetch(url_Repository);
+      const responseRepo = await fetch(`${GITURL + dataUser}/repos`);
       const repository = await responseRepo.json();
       setUserRepor(repository);
     }
   
     async function fetchUserInfo() {
-      const responseUser = await fetch(url_User);
+      const responseUser = await fetch(`${GITURL + dataUser}`);
       const user = await responseUser.json();
       setUseInfo(user);
-    }
-  
+    } 
+
     fetchRepository(userRepor);
     fetchUserInfo(useInfo);
   }, []);
 
-
   return (
     <>
 
-
       <section className='profile_section'>
-        <UserInfo data={useInfo}/>
+      <UserInfo data={useInfo}/>
       </section>
 
       <section className='table_section'>

@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest"
   },
   "KENDO_UI_LICENSE": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkxJQyJ9.eyJwcm9kdWN0cyI6W3sidHJpYWwiOnRydWUsImNvZGUiOiJLRU5ET1VJUkVBQ1QiLCJsaWNlbnNlRXhwaXJhdGlvbkRhdGUiOjE3MTE1MjM2NTF9XSwiaW50ZWdyaXR5IjoiQVE5TTNxWnZka1wvRUxYN0dvTVFkQnFib3BYRT0iLCJsaWNlbnNlSG9sZGVyIjoiZGFubWFnZ290MkBnbWFpbC5jb20iLCJpYXQiOjE3MDkwNjAyNTEsImF1ZCI6ImRhbm1hZ2dvdDJAZ21haWwuY29tIiwidXNlcklkIjoiNDg1OTg5NTAtMGE1ZC00NDkzLThiMTEtMmZkMzVkZTU1NThhIn0.onUlgCg3Hq5mtfcgL3t7Num_rcv9-0wdFaIreiWlZYliOOat8gyAImp-EJ4IcUH-F-L5Y3KwFckP6hKj-ME6iGTLGDYFkQrspdMLAraeyB_tRfsATxmr8brEjZYn9waDjzBD-0veo7U2XaLlLzvGzCW_PLijuKB_BaFmHLUK4EC3hAcQOow6QpTG4ZkGyEqHx750QjaUjh1cQpJNComJsiPpsCSkVceGufuJVMqPKKH88iSekiOqnfg9INgUlrr6XYHQCTcPFYmmEgmdyc91gAOX1E-VJr_1O42X0Jf5mi6Oj07F4yH3t-jzkbkXlj6RlnzxrwEhaC1PehHoaOtOeg",
   "dependencies": {
@@ -29,6 +30,7 @@
     "@progress/kendo-svg-icons": "^2.1.0",
     "@progress/kendo-theme-default": "^7.2.0",
     "dotenv": "^16.4.5",
+    "jests": "^0.0.0",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -41,6 +43,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "jest": "^29.7.0",
     "vite": "^5.1.4"
   }
 }

@@ -23,12 +23,12 @@ const UserInfo = (UserInfo) => {
        <div className={styles.banner_stats}>
 
                 <div className={styles.stats_itens}>
-                    <i class="fa-solid fa-box-archive"></i>
+                    <i className="fa-solid fa-box-archive"></i>
                     <p>Repositorios</p>
                     <p>{UserInfo.data.public_repos}</p>
                 </div>
                 <div className={styles.stats_itens}>
-                     <i class="fa-solid fa-user-group"></i>
+                     <i className="fa-solid fa-user-group"></i>
                     <p>Seguidores</p>
                     <p>{UserInfo.data.followers}</p>
                 </div>
@@ -41,7 +41,7 @@ const UserInfo = (UserInfo) => {
 
                 <a href="">
                     <div className={styles.stats_itens}>
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                         <p>perfil</p>
                         <p>&#8594;</p>
                     </div>
